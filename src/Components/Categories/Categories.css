@@ -1,0 +1,149 @@
+.container {
+  width: 90%;
+  max-width: 1250px;
+  margin: 0 auto;
+}
+
+.sec1 {
+  margin-top: 48px;
+  margin-bottom: 48px;
+}
+
+.category-cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.category-card {
+  padding: 8px 18px;
+  gap: 10px;
+  border-radius: 8px;
+  box-shadow: -2px 2px 15px -1px #7171711f;
+}
+
+.category-card img {
+  width: 148px;
+  height: 148px;
+}
+
+.category-card p {
+  font-family: Inter;
+  font-weight: 300;
+  font-style: Light;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #2d2d2d;
+  padding-top: 8px;
+}
+
+#camera {
+  width: 148px;
+}
+
+#laptop {
+  width: 148px;
+}
+
+.sales {
+  background: #063a8c;
+  padding: 25px;
+  border-radius: 12px;
+  display: flex;
+  gap: 25px;
+  color: white;
+  align-items: center;
+}
+
+.left {
+  width: 220px;
+}
+
+.right {
+  width: 100%;
+}
+
+.left h2 {
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.left p {
+  opacity: 0.8;
+  margin-top: 5px;
+}
+
+.left a {
+  display: inline-block;
+  margin-top: 20px;
+  color: white;
+  font-weight: 600;
+}
+
+.sale {
+  background: white;
+  border-radius: 12px;
+  padding: 15px;
+  position: relative;
+  width: 210px;
+}
+
+.sale img {
+  width: 100%;
+  height: 130px;
+  object-fit: contain;
+}
+
+.skd {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: #ffddcc;
+  color: #ff5a28;
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-size: 12px;
+}
+
+.prices {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.old {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+.new {
+  font-weight: 700;
+  color: #222;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: white !important;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: black !important;
+}
+
+.right {
+  width: 100%;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 22px;
+}
