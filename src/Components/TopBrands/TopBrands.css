@@ -1,0 +1,100 @@
+.bot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    flex-direction: column;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.icons img {
+    width: 200px;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.icons img:hover {
+    transform: scale(1.1);
+    filter: brightness(1.2);
+}
+
+.clock{
+    transition: 0.4s ease;
+}
+
+.clock:hover {
+    transform: translateY(-10px) scale(1.05);
+}
+
+
+
+.bottom {
+    width: 1224px;
+    height: 420px;
+    border-radius: 8px;
+    background-color: #223949;
+    position: relative;
+    display: flex;
+
+}
+
+.du {
+    position: absolute;
+    z-index: 1;
+    right: 0px;
+}
+
+.clock {
+    position: absolute;
+    top: 41px;
+    right: 161px;
+    z-index: 2;
+}
+
+.g {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    row-gap: 30px;
+    padding: 0px 120px;
+    color: #FFFFFF;
+    flex-direction: column;
+}
+
+.g h2 {
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 44px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.g p {
+    font-weight: 300;
+    font-style: Light;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.g button {
+    background-color: #FF6951;
+    color: #223949;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.g button:hover {
+    background-color: #ff3f24;
+    color: #ffffff;
+    transform: scale(1.05);
+}
